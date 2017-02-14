@@ -22,12 +22,15 @@
 		7137E0751E52FD7A0021AE54 /* 附近专家@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7137E0681E52FD7A0021AE54 /* 附近专家@3x.png */; };
 		7137E07B1E53105D0021AE54 /* TRZXCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = 7137E0791E53105D0021AE54 /* TRZXCourse.m */; };
 		714B4ECA1E532A410006E438 /* TRZXCollegeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 714B4EC91E532A410006E438 /* TRZXCollegeViewModel.m */; };
-		714B4ED91E532AC50006E438 /* TRZXCollegeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 714B4ECC1E532AC50006E438 /* TRZXCollegeCell.m */; };
-		714B4EDA1E532AC50006E438 /* TRZXCollegeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 714B4ECD1E532AC50006E438 /* TRZXCollegeCell.xib */; };
-		714B4EDB1E532AC50006E438 /* TRZXCollegeCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 714B4ECF1E532AC50006E438 /* TRZXCollegeCollectionCell.m */; };
-		714B4EDC1E532AC50006E438 /* TRZXCollegeCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 714B4ED01E532AC50006E438 /* TRZXCollegeCollectionCell.xib */; };
-		714B4EDF1E532AC50006E438 /* TRZXCollegeTabSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 714B4ED51E532AC50006E438 /* TRZXCollegeTabSectionHeaderView.m */; };
-		714B4EE01E532AC50006E438 /* TRZXCollegeTabSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 714B4ED61E532AC50006E438 /* TRZXCollegeTabSectionHeaderView.xib */; };
+		714B4EF01E5330180006E438 /* TRZXCollegeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 714B4EE31E5330180006E438 /* TRZXCollegeCell.m */; };
+		714B4EF11E5330180006E438 /* TRZXCollegeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 714B4EE41E5330180006E438 /* TRZXCollegeCell.xib */; };
+		714B4EF21E5330180006E438 /* TRZXCollegeCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 714B4EE61E5330180006E438 /* TRZXCollegeCollectionCell.m */; };
+		714B4EF31E5330180006E438 /* TRZXCollegeCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 714B4EE71E5330180006E438 /* TRZXCollegeCollectionCell.xib */; };
+		714B4EF41E5330180006E438 /* TRZXCollegeCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 714B4EE91E5330180006E438 /* TRZXCollegeCollectionView.m */; };
+		714B4EF51E5330180006E438 /* TRZXCollegeCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 714B4EEA1E5330180006E438 /* TRZXCollegeCollectionView.xib */; };
+		714B4EF61E5330180006E438 /* TRZXCollegeTabSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 714B4EEC1E5330180006E438 /* TRZXCollegeTabSectionHeaderView.m */; };
+		714B4EF71E5330180006E438 /* TRZXCollegeTabSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 714B4EED1E5330180006E438 /* TRZXCollegeTabSectionHeaderView.xib */; };
+		714B4EF81E5330180006E438 /* TRZXCollegeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 714B4EEF1E5330180006E438 /* TRZXCollegeViewController.m */; };
 		7184768C1E52EBB700D09537 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7184768B1E52EBB700D09537 /* main.m */; };
 		7184768F1E52EBB700D09537 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7184768E1E52EBB700D09537 /* AppDelegate.m */; };
 		718476951E52EBB700D09537 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 718476931E52EBB700D09537 /* Main.storyboard */; };
@@ -54,15 +57,20 @@
 		7137E0791E53105D0021AE54 /* TRZXCourse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCourse.m; sourceTree = "<group>"; };
 		714B4EC81E532A410006E438 /* TRZXCollegeViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCollegeViewModel.h; sourceTree = "<group>"; };
 		714B4EC91E532A410006E438 /* TRZXCollegeViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCollegeViewModel.m; sourceTree = "<group>"; };
-		714B4ECB1E532AC50006E438 /* TRZXCollegeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCollegeCell.h; sourceTree = "<group>"; };
-		714B4ECC1E532AC50006E438 /* TRZXCollegeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCollegeCell.m; sourceTree = "<group>"; };
-		714B4ECD1E532AC50006E438 /* TRZXCollegeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXCollegeCell.xib; sourceTree = "<group>"; };
-		714B4ECE1E532AC50006E438 /* TRZXCollegeCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCollegeCollectionCell.h; sourceTree = "<group>"; };
-		714B4ECF1E532AC50006E438 /* TRZXCollegeCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCollegeCollectionCell.m; sourceTree = "<group>"; };
-		714B4ED01E532AC50006E438 /* TRZXCollegeCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXCollegeCollectionCell.xib; sourceTree = "<group>"; };
-		714B4ED41E532AC50006E438 /* TRZXCollegeTabSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCollegeTabSectionHeaderView.h; sourceTree = "<group>"; };
-		714B4ED51E532AC50006E438 /* TRZXCollegeTabSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCollegeTabSectionHeaderView.m; sourceTree = "<group>"; };
-		714B4ED61E532AC50006E438 /* TRZXCollegeTabSectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXCollegeTabSectionHeaderView.xib; sourceTree = "<group>"; };
+		714B4EE21E5330180006E438 /* TRZXCollegeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCollegeCell.h; sourceTree = "<group>"; };
+		714B4EE31E5330180006E438 /* TRZXCollegeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCollegeCell.m; sourceTree = "<group>"; };
+		714B4EE41E5330180006E438 /* TRZXCollegeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXCollegeCell.xib; sourceTree = "<group>"; };
+		714B4EE51E5330180006E438 /* TRZXCollegeCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCollegeCollectionCell.h; sourceTree = "<group>"; };
+		714B4EE61E5330180006E438 /* TRZXCollegeCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCollegeCollectionCell.m; sourceTree = "<group>"; };
+		714B4EE71E5330180006E438 /* TRZXCollegeCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXCollegeCollectionCell.xib; sourceTree = "<group>"; };
+		714B4EE81E5330180006E438 /* TRZXCollegeCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCollegeCollectionView.h; sourceTree = "<group>"; };
+		714B4EE91E5330180006E438 /* TRZXCollegeCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCollegeCollectionView.m; sourceTree = "<group>"; };
+		714B4EEA1E5330180006E438 /* TRZXCollegeCollectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXCollegeCollectionView.xib; sourceTree = "<group>"; };
+		714B4EEB1E5330180006E438 /* TRZXCollegeTabSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCollegeTabSectionHeaderView.h; sourceTree = "<group>"; };
+		714B4EEC1E5330180006E438 /* TRZXCollegeTabSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCollegeTabSectionHeaderView.m; sourceTree = "<group>"; };
+		714B4EED1E5330180006E438 /* TRZXCollegeTabSectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXCollegeTabSectionHeaderView.xib; sourceTree = "<group>"; };
+		714B4EEE1E5330180006E438 /* TRZXCollegeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCollegeViewController.h; sourceTree = "<group>"; };
+		714B4EEF1E5330180006E438 /* TRZXCollegeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCollegeViewController.m; sourceTree = "<group>"; };
 		718476871E52EBB700D09537 /* TRZXCollege.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRZXCollege.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7184768B1E52EBB700D09537 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7184768D1E52EBB700D09537 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -152,15 +160,20 @@
 		718476A11E52EE3E00D09537 /* TRZXCollege */ = {
 			isa = PBXGroup;
 			children = (
-				714B4ECB1E532AC50006E438 /* TRZXCollegeCell.h */,
-				714B4ECC1E532AC50006E438 /* TRZXCollegeCell.m */,
-				714B4ECD1E532AC50006E438 /* TRZXCollegeCell.xib */,
-				714B4ECE1E532AC50006E438 /* TRZXCollegeCollectionCell.h */,
-				714B4ECF1E532AC50006E438 /* TRZXCollegeCollectionCell.m */,
-				714B4ED01E532AC50006E438 /* TRZXCollegeCollectionCell.xib */,
-				714B4ED41E532AC50006E438 /* TRZXCollegeTabSectionHeaderView.h */,
-				714B4ED51E532AC50006E438 /* TRZXCollegeTabSectionHeaderView.m */,
-				714B4ED61E532AC50006E438 /* TRZXCollegeTabSectionHeaderView.xib */,
+				714B4EE21E5330180006E438 /* TRZXCollegeCell.h */,
+				714B4EE31E5330180006E438 /* TRZXCollegeCell.m */,
+				714B4EE41E5330180006E438 /* TRZXCollegeCell.xib */,
+				714B4EE51E5330180006E438 /* TRZXCollegeCollectionCell.h */,
+				714B4EE61E5330180006E438 /* TRZXCollegeCollectionCell.m */,
+				714B4EE71E5330180006E438 /* TRZXCollegeCollectionCell.xib */,
+				714B4EE81E5330180006E438 /* TRZXCollegeCollectionView.h */,
+				714B4EE91E5330180006E438 /* TRZXCollegeCollectionView.m */,
+				714B4EEA1E5330180006E438 /* TRZXCollegeCollectionView.xib */,
+				714B4EEB1E5330180006E438 /* TRZXCollegeTabSectionHeaderView.h */,
+				714B4EEC1E5330180006E438 /* TRZXCollegeTabSectionHeaderView.m */,
+				714B4EED1E5330180006E438 /* TRZXCollegeTabSectionHeaderView.xib */,
+				714B4EEE1E5330180006E438 /* TRZXCollegeViewController.h */,
+				714B4EEF1E5330180006E438 /* TRZXCollegeViewController.m */,
 				714B4EC81E532A410006E438 /* TRZXCollegeViewModel.h */,
 				714B4EC91E532A410006E438 /* TRZXCollegeViewModel.m */,
 				7137E0781E53105D0021AE54 /* TRZXCourse.h */,
@@ -250,12 +263,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7137E06C1E52FD7A0021AE54 /* 学院问答@2x.png in Resources */,
-				714B4EDC1E532AC50006E438 /* TRZXCollegeCollectionCell.xib in Resources */,
+				714B4EF31E5330180006E438 /* TRZXCollegeCollectionCell.xib in Resources */,
+				714B4EF51E5330180006E438 /* TRZXCollegeCollectionView.xib in Resources */,
 				7137E0741E52FD7A0021AE54 /* 附近专家@2x.png in Resources */,
 				7137E06F1E52FD7A0021AE54 /* 孵化专区@3x.png in Resources */,
 				7184769A1E52EBB700D09537 /* LaunchScreen.storyboard in Resources */,
 				7137E0691E52FD7A0021AE54 /* college_recommend@2x.png in Resources */,
-				714B4EDA1E532AC50006E438 /* TRZXCollegeCell.xib in Resources */,
+				714B4EF11E5330180006E438 /* TRZXCollegeCell.xib in Resources */,
 				7137E0731E52FD7A0021AE54 /* 直播课堂@3x.png in Resources */,
 				7137E06D1E52FD7A0021AE54 /* 学院问答@3x.png in Resources */,
 				7137E0751E52FD7A0021AE54 /* 附近专家@3x.png in Resources */,
@@ -263,7 +277,7 @@
 				7137E0721E52FD7A0021AE54 /* 直播课堂@2x.png in Resources */,
 				718476951E52EBB700D09537 /* Main.storyboard in Resources */,
 				7137E0701E52FD7A0021AE54 /* 投融课程@2x.png in Resources */,
-				714B4EE01E532AC50006E438 /* TRZXCollegeTabSectionHeaderView.xib in Resources */,
+				714B4EF71E5330180006E438 /* TRZXCollegeTabSectionHeaderView.xib in Resources */,
 				7137E0711E52FD7A0021AE54 /* 投融课程@3x.png in Resources */,
 				7137E06A1E52FD7A0021AE54 /* 协议讲解@2x.png in Resources */,
 				7137E06B1E52FD7A0021AE54 /* 协议讲解@3x.png in Resources */,
@@ -328,9 +342,11 @@
 			files = (
 				714B4ECA1E532A410006E438 /* TRZXCollegeViewModel.m in Sources */,
 				7137E07B1E53105D0021AE54 /* TRZXCourse.m in Sources */,
-				714B4ED91E532AC50006E438 /* TRZXCollegeCell.m in Sources */,
-				714B4EDB1E532AC50006E438 /* TRZXCollegeCollectionCell.m in Sources */,
-				714B4EDF1E532AC50006E438 /* TRZXCollegeTabSectionHeaderView.m in Sources */,
+				714B4EF41E5330180006E438 /* TRZXCollegeCollectionView.m in Sources */,
+				714B4EF01E5330180006E438 /* TRZXCollegeCell.m in Sources */,
+				714B4EF81E5330180006E438 /* TRZXCollegeViewController.m in Sources */,
+				714B4EF21E5330180006E438 /* TRZXCollegeCollectionCell.m in Sources */,
+				714B4EF61E5330180006E438 /* TRZXCollegeTabSectionHeaderView.m in Sources */,
 				7184768F1E52EBB700D09537 /* AppDelegate.m in Sources */,
 				7184768C1E52EBB700D09537 /* main.m in Sources */,
 			);
