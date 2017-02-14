@@ -8,7 +8,7 @@
 
 #import "TRZXCollegeCollectionView.h"
 #import "TRZXCollegeCollectionCell.h"
-#import <TRZXKit.h>
+#import "TRZXKit.h"
 @interface TRZXCollegeCollectionView () <UICollectionViewDataSource,UICollectionViewDelegate>
 
 
