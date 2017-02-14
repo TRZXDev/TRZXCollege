@@ -7,7 +7,7 @@
 //  入口图标View
 
 #import <UIKit/UIKit.h>
-
+#import "TRZXKit.h"
 /**
  *  投融市场Cell入口
  */

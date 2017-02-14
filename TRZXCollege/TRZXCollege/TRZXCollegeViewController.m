@@ -10,7 +10,6 @@
 #import "TRZXShufflingView.h"
 #import "TRZXCollegeCollectionView.h"
 #import "TRZXCollegeViewModel.h"
-#import "TRZXKit.h"
 #import "TRZXCollegeTabSectionHeaderView.h"
 #import "MJRefresh.h"
 #import "TRZXCollegeCell.h"
