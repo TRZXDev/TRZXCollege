@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7137E0691E52FD7A0021AE54 /* college_recommend@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7137E05C1E52FD7A0021AE54 /* college_recommend@2x.png */; };
+		7137E06A1E52FD7A0021AE54 /* 协议讲解@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7137E05D1E52FD7A0021AE54 /* 协议讲解@2x.png */; };
+		7137E06B1E52FD7A0021AE54 /* 协议讲解@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7137E05E1E52FD7A0021AE54 /* 协议讲解@3x.png */; };
+		7137E06C1E52FD7A0021AE54 /* 学院问答@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7137E05F1E52FD7A0021AE54 /* 学院问答@2x.png */; };
+		7137E06D1E52FD7A0021AE54 /* 学院问答@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7137E0601E52FD7A0021AE54 /* 学院问答@3x.png */; };
+		7137E06E1E52FD7A0021AE54 /* 孵化专区@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7137E0611E52FD7A0021AE54 /* 孵化专区@2x.png */; };
+		7137E06F1E52FD7A0021AE54 /* 孵化专区@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7137E0621E52FD7A0021AE54 /* 孵化专区@3x.png */; };
+		7137E0701E52FD7A0021AE54 /* 投融课程@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7137E0631E52FD7A0021AE54 /* 投融课程@2x.png */; };
+		7137E0711E52FD7A0021AE54 /* 投融课程@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7137E0641E52FD7A0021AE54 /* 投融课程@3x.png */; };
+		7137E0721E52FD7A0021AE54 /* 直播课堂@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7137E0651E52FD7A0021AE54 /* 直播课堂@2x.png */; };
+		7137E0731E52FD7A0021AE54 /* 直播课堂@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7137E0661E52FD7A0021AE54 /* 直播课堂@3x.png */; };
+		7137E0741E52FD7A0021AE54 /* 附近专家@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7137E0671E52FD7A0021AE54 /* 附近专家@2x.png */; };
+		7137E0751E52FD7A0021AE54 /* 附近专家@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7137E0681E52FD7A0021AE54 /* 附近专家@3x.png */; };
+		7184768C1E52EBB700D09537 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7184768B1E52EBB700D09537 /* main.m */; };
+		7184768F1E52EBB700D09537 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7184768E1E52EBB700D09537 /* AppDelegate.m */; };
+		718476951E52EBB700D09537 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 718476931E52EBB700D09537 /* Main.storyboard */; };
+		718476971E52EBB700D09537 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 718476961E52EBB700D09537 /* Assets.xcassets */; };
+		7184769A1E52EBB700D09537 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 718476981E52EBB700D09537 /* LaunchScreen.storyboard */; };
+		718476A41E52EE5200D09537 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 718476A31E52EE5200D09537 /* ViewController.m */; };
+		BA64265E1C934D4E4CBD212C /* libPods-TRZXCollege.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6DA2E22B09A933A72B6BCD6 /* libPods-TRZXCollege.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7137E05C1E52FD7A0021AE54 /* college_recommend@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "college_recommend@2x.png"; sourceTree = "<group>"; };
+		7137E05D1E52FD7A0021AE54 /* 协议讲解@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "协议讲解@2x.png"; sourceTree = "<group>"; };
+		7137E05E1E52FD7A0021AE54 /* 协议讲解@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "协议讲解@3x.png"; sourceTree = "<group>"; };
+		7137E05F1E52FD7A0021AE54 /* 学院问答@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "学院问答@2x.png"; sourceTree = "<group>"; };
+		7137E0601E52FD7A0021AE54 /* 学院问答@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "学院问答@3x.png"; sourceTree = "<group>"; };
+		7137E0611E52FD7A0021AE54 /* 孵化专区@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "孵化专区@2x.png"; sourceTree = "<group>"; };
+		7137E0621E52FD7A0021AE54 /* 孵化专区@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "孵化专区@3x.png"; sourceTree = "<group>"; };
+		7137E0631E52FD7A0021AE54 /* 投融课程@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "投融课程@2x.png"; sourceTree = "<group>"; };
+		7137E0641E52FD7A0021AE54 /* 投融课程@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "投融课程@3x.png"; sourceTree = "<group>"; };
+		7137E0651E52FD7A0021AE54 /* 直播课堂@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "直播课堂@2x.png"; sourceTree = "<group>"; };
+		7137E0661E52FD7A0021AE54 /* 直播课堂@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "直播课堂@3x.png"; sourceTree = "<group>"; };
+		7137E0671E52FD7A0021AE54 /* 附近专家@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "附近专家@2x.png"; sourceTree = "<group>"; };
+		7137E0681E52FD7A0021AE54 /* 附近专家@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "附近专家@3x.png"; sourceTree = "<group>"; };
+		718476871E52EBB700D09537 /* TRZXCollege.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRZXCollege.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7184768B1E52EBB700D09537 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7184768D1E52EBB700D09537 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7184768E1E52EBB700D09537 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		718476941E52EBB700D09537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		718476961E52EBB700D09537 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		718476991E52EBB700D09537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7184769B1E52EBB700D09537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		718476A21E52EE5200D09537 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		718476A31E52EE5200D09537 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		73911064549368ECC60481D2 /* Pods-TRZXCollege.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXCollege.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXCollege/Pods-TRZXCollege.debug.xcconfig"; sourceTree = "<group>"; };
+		8C59F685BA94886F8246B833 /* Pods-TRZXCollege.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXCollege.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXCollege/Pods-TRZXCollege.release.xcconfig"; sourceTree = "<group>"; };
+		E6DA2E22B09A933A72B6BCD6 /* libPods-TRZXCollege.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TRZXCollege.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		718476841E52EBB700D09537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA64265E1C934D4E4CBD212C /* libPods-TRZXCollege.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7137E05B1E52FD7A0021AE54 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7137E05C1E52FD7A0021AE54 /* college_recommend@2x.png */,
+				7137E05D1E52FD7A0021AE54 /* 协议讲解@2x.png */,
+				7137E05E1E52FD7A0021AE54 /* 协议讲解@3x.png */,
+				7137E05F1E52FD7A0021AE54 /* 学院问答@2x.png */,
+				7137E0601E52FD7A0021AE54 /* 学院问答@3x.png */,
+				7137E0611E52FD7A0021AE54 /* 孵化专区@2x.png */,
+				7137E0621E52FD7A0021AE54 /* 孵化专区@3x.png */,
+				7137E0631E52FD7A0021AE54 /* 投融课程@2x.png */,
+				7137E0641E52FD7A0021AE54 /* 投融课程@3x.png */,
+				7137E0651E52FD7A0021AE54 /* 直播课堂@2x.png */,
+				7137E0661E52FD7A0021AE54 /* 直播课堂@3x.png */,
+				7137E0671E52FD7A0021AE54 /* 附近专家@2x.png */,
+				7137E0681E52FD7A0021AE54 /* 附近专家@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7184767E1E52EBB700D09537 = {
+			isa = PBXGroup;
+			children = (
+				718476891E52EBB700D09537 /* TRZXCollege */,
+				718476881E52EBB700D09537 /* Products */,
+				F75315CC50ADB00887967B57 /* Pods */,
+				7751AE1E580CFA8C0B6601BA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		718476881E52EBB700D09537 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				718476871E52EBB700D09537 /* TRZXCollege.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		718476891E52EBB700D09537 /* TRZXCollege */ = {
+			isa = PBXGroup;
+			children = (
+				718476A11E52EE3E00D09537 /* TRZXCollege */,
+				7184768D1E52EBB700D09537 /* AppDelegate.h */,
+				7184768E1E52EBB700D09537 /* AppDelegate.m */,
+				718476931E52EBB700D09537 /* Main.storyboard */,
+				718476961E52EBB700D09537 /* Assets.xcassets */,
+				718476981E52EBB700D09537 /* LaunchScreen.storyboard */,
+				7184769B1E52EBB700D09537 /* Info.plist */,
+				7184768A1E52EBB700D09537 /* Supporting Files */,
+			);
+			path = TRZXCollege;
+			sourceTree = "<group>";
+		};
+		7184768A1E52EBB700D09537 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7184768B1E52EBB700D09537 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		718476A11E52EE3E00D09537 /* TRZXCollege */ = {
+			isa = PBXGroup;
+			children = (
+				7137E05B1E52FD7A0021AE54 /* Resources */,
+				718476A21E52EE5200D09537 /* ViewController.h */,
+				718476A31E52EE5200D09537 /* ViewController.m */,
+			);
+			path = TRZXCollege;
+			sourceTree = "<group>";
+		};
+		7751AE1E580CFA8C0B6601BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6DA2E22B09A933A72B6BCD6 /* libPods-TRZXCollege.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F75315CC50ADB00887967B57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73911064549368ECC60481D2 /* Pods-TRZXCollege.debug.xcconfig */,
+				8C59F685BA94886F8246B833 /* Pods-TRZXCollege.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		718476861E52EBB700D09537 /* TRZXCollege */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7184769E1E52EBB700D09537 /* Build configuration list for PBXNativeTarget "TRZXCollege" */;
+			buildPhases = (
+				3E9ED07E8267FC3840C83E56 /* [CP] Check Pods Manifest.lock */,
+				718476831E52EBB700D09537 /* Sources */,
+				718476841E52EBB700D09537 /* Frameworks */,
+				718476851E52EBB700D09537 /* Resources */,
+				C58D9ED2DA51AAEA52DCD7E2 /* [CP] Embed Pods Frameworks */,
+				3108F366AA6178F715B4E8FA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRZXCollege;
+			productName = TRZXCollege;
+			productReference = 718476871E52EBB700D09537 /* TRZXCollege.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7184767F1E52EBB700D09537 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = TRZX;
+				TargetAttributes = {
+					718476861E52EBB700D09537 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 487PQPPTGA;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 718476821E52EBB700D09537 /* Build configuration list for PBXProject "TRZXCollege" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7184767E1E52EBB700D09537;
+			productRefGroup = 718476881E52EBB700D09537 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				718476861E52EBB700D09537 /* TRZXCollege */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		718476851E52EBB700D09537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7137E06C1E52FD7A0021AE54 /* 学院问答@2x.png in Resources */,
+				7137E0741E52FD7A0021AE54 /* 附近专家@2x.png in Resources */,
+				7137E06F1E52FD7A0021AE54 /* 孵化专区@3x.png in Resources */,
+				7184769A1E52EBB700D09537 /* LaunchScreen.storyboard in Resources */,
+				7137E0691E52FD7A0021AE54 /* college_recommend@2x.png in Resources */,
+				7137E0731E52FD7A0021AE54 /* 直播课堂@3x.png in Resources */,
+				7137E06D1E52FD7A0021AE54 /* 学院问答@3x.png in Resources */,
+				7137E0751E52FD7A0021AE54 /* 附近专家@3x.png in Resources */,
+				718476971E52EBB700D09537 /* Assets.xcassets in Resources */,
+				7137E0721E52FD7A0021AE54 /* 直播课堂@2x.png in Resources */,
+				718476951E52EBB700D09537 /* Main.storyboard in Resources */,
+				7137E0701E52FD7A0021AE54 /* 投融课程@2x.png in Resources */,
+				7137E0711E52FD7A0021AE54 /* 投融课程@3x.png in Resources */,
+				7137E06A1E52FD7A0021AE54 /* 协议讲解@2x.png in Resources */,
+				7137E06B1E52FD7A0021AE54 /* 协议讲解@3x.png in Resources */,
+				7137E06E1E52FD7A0021AE54 /* 孵化专区@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3108F366AA6178F715B4E8FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXCollege/Pods-TRZXCollege-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E9ED07E8267FC3840C83E56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C58D9ED2DA51AAEA52DCD7E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXCollege/Pods-TRZXCollege-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		718476831E52EBB700D09537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				718476A41E52EE5200D09537 /* ViewController.m in Sources */,
+				7184768F1E52EBB700D09537 /* AppDelegate.m in Sources */,
+				7184768C1E52EBB700D09537 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		718476931E52EBB700D09537 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				718476941E52EBB700D09537 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		718476981E52EBB700D09537 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				718476991E52EBB700D09537 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7184769C1E52EBB700D09537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7184769D1E52EBB700D09537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7184769F1E52EBB700D09537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73911064549368ECC60481D2 /* Pods-TRZXCollege.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 487PQPPTGA;
+				INFOPLIST_FILE = TRZXCollege/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mmwipo.com.TRZXCollege;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		718476A01E52EBB700D09537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C59F685BA94886F8246B833 /* Pods-TRZXCollege.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 487PQPPTGA;
+				INFOPLIST_FILE = TRZXCollege/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mmwipo.com.TRZXCollege;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		718476821E52EBB700D09537 /* Build configuration list for PBXProject "TRZXCollege" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7184769C1E52EBB700D09537 /* Debug */,
+				7184769D1E52EBB700D09537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7184769E1E52EBB700D09537 /* Build configuration list for PBXNativeTarget "TRZXCollege" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7184769F1E52EBB700D09537 /* Debug */,
+				718476A01E52EBB700D09537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7184767F1E52EBB700D09537 /* Project object */;
+}
