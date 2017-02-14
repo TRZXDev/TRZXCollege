@@ -5,7 +5,11 @@ source 'https://github.com/CocoaPods/Specs.git'
 target 'TRZXCollege' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
-	pod 'TRZXNetwork'
+
+    pod 'TRZXNetwork'
+    pod 'ReactiveCocoa', '~> 2.5’
+    pod 'MJExtension'
+
   # Pods for TRZXCollege
 
 end
