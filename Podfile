@@ -9,6 +9,13 @@ target 'TRZXCollege' do
     pod 'TRZXNetwork'
     pod 'ReactiveCocoa', '~> 2.5’
     pod 'MJExtension'
+    pod 'TRZXShufflingView'
+    pod 'TRZXKit'
+    pod 'MJRefresh'
+
+
+
+
 
   # Pods for TRZXCollege
 

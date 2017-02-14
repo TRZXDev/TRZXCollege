@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TRZXCollegeCollectionView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="148"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Ca0-j5-WSt">
+                    <rect key="frame" x="0.0" y="0.0" width="376" height="148"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="n1H-HQ-uX1">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="iN0-l3-epB" id="78d-7v-LTj"/>
+                        <outlet property="delegate" destination="iN0-l3-epB" id="Wpf-iA-Vzs"/>
+                    </connections>
+                </collectionView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dhi-YG-EYe">
+                    <rect key="frame" x="20" y="64" width="110.5" height="20"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="Vm0-1q-5QK"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1HP-ag-aZa">
+                    <rect key="frame" x="10" y="74" width="355" height="1"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="rbI-iu-4RQ"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DCO-JA-fZt">
+                    <rect key="frame" x="244" y="64" width="111" height="20"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sdo-aX-CAn">
+                    <rect key="frame" x="130.5" y="10" width="1" height="128"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="HjT-Ax-0Cg"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tXS-ed-kr5">
+                    <rect key="frame" x="242.5" y="10" width="1" height="128"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="KPW-Tm-vJv"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oqB-pD-EN7">
+                    <rect key="frame" x="131.5" y="64" width="110.5" height="20"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Dhi-YG-EYe" firstAttribute="width" secondItem="oqB-pD-EN7" secondAttribute="width" id="0PI-UG-obX"/>
+                <constraint firstItem="Dhi-YG-EYe" firstAttribute="centerY" secondItem="Ca0-j5-WSt" secondAttribute="centerY" id="3c9-YF-RI5"/>
+                <constraint firstItem="Ca0-j5-WSt" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="7Qk-Xk-XEf"/>
+                <constraint firstItem="DCO-JA-fZt" firstAttribute="centerY" secondItem="tXS-ed-kr5" secondAttribute="centerY" id="9CI-tD-Msd"/>
+                <constraint firstItem="1HP-ag-aZa" firstAttribute="centerY" secondItem="Ca0-j5-WSt" secondAttribute="centerY" id="9E9-Tq-3q2"/>
+                <constraint firstAttribute="bottom" secondItem="Sdo-aX-CAn" secondAttribute="bottom" constant="10" id="BuP-hm-Fq6"/>
+                <constraint firstItem="1HP-ag-aZa" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="CgF-U3-Bcp"/>
+                <constraint firstAttribute="bottom" secondItem="Ca0-j5-WSt" secondAttribute="bottom" id="Eh4-YH-qlT"/>
+                <constraint firstItem="oqB-pD-EN7" firstAttribute="height" secondItem="Dhi-YG-EYe" secondAttribute="height" id="EpS-dp-159"/>
+                <constraint firstItem="tXS-ed-kr5" firstAttribute="centerY" secondItem="oqB-pD-EN7" secondAttribute="centerY" id="FZE-WY-iuC"/>
+                <constraint firstAttribute="bottom" secondItem="tXS-ed-kr5" secondAttribute="bottom" constant="10" id="G9H-fb-WzS"/>
+                <constraint firstAttribute="trailing" secondItem="1HP-ag-aZa" secondAttribute="trailing" constant="10" id="Kpe-4A-zyM"/>
+                <constraint firstItem="oqB-pD-EN7" firstAttribute="centerY" secondItem="Sdo-aX-CAn" secondAttribute="centerY" id="ON2-FF-rfB"/>
+                <constraint firstItem="Ca0-j5-WSt" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="VLl-Ig-ULg"/>
+                <constraint firstItem="Sdo-aX-CAn" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="Y9k-kh-MwF"/>
+                <constraint firstItem="Dhi-YG-EYe" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="h3Q-yV-Kta"/>
+                <constraint firstItem="DCO-JA-fZt" firstAttribute="leading" secondItem="tXS-ed-kr5" secondAttribute="trailing" id="iCn-c5-PUb"/>
+                <constraint firstItem="oqB-pD-EN7" firstAttribute="leading" secondItem="Sdo-aX-CAn" secondAttribute="trailing" id="kh2-qF-uq9"/>
+                <constraint firstItem="tXS-ed-kr5" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="lAq-0d-Q0S"/>
+                <constraint firstItem="tXS-ed-kr5" firstAttribute="leading" secondItem="oqB-pD-EN7" secondAttribute="trailing" id="lBo-Wq-bYQ"/>
+                <constraint firstItem="Sdo-aX-CAn" firstAttribute="leading" secondItem="Dhi-YG-EYe" secondAttribute="trailing" id="nBU-3s-8D6"/>
+                <constraint firstItem="Ca0-j5-WSt" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="pUE-iw-CN5"/>
+                <constraint firstItem="DCO-JA-fZt" firstAttribute="height" secondItem="oqB-pD-EN7" secondAttribute="height" id="pfX-5m-C0U"/>
+                <constraint firstAttribute="trailing" secondItem="DCO-JA-fZt" secondAttribute="trailing" constant="20" id="syA-tU-qjH"/>
+                <constraint firstItem="oqB-pD-EN7" firstAttribute="width" secondItem="DCO-JA-fZt" secondAttribute="width" id="uqz-Ln-z4J"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="collectionView" destination="Ca0-j5-WSt" id="ot6-Mr-OYn"/>
+            </connections>
+            <point key="canvasLocation" x="-235.5" y="-264"/>
+        </view>
+    </objects>
+</document>
