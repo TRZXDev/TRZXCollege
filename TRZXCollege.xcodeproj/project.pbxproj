@@ -20,7 +20,6 @@
 		7137E0731E52FD7A0021AE54 /* 直播课堂@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7137E0661E52FD7A0021AE54 /* 直播课堂@3x.png */; };
 		7137E0741E52FD7A0021AE54 /* 附近专家@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7137E0671E52FD7A0021AE54 /* 附近专家@2x.png */; };
 		7137E0751E52FD7A0021AE54 /* 附近专家@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7137E0681E52FD7A0021AE54 /* 附近专家@3x.png */; };
-		7137E07A1E53105D0021AE54 /* TRZXCollegeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7137E0771E53105D0021AE54 /* TRZXCollegeViewModel.m */; };
 		7137E07B1E53105D0021AE54 /* TRZXCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = 7137E0791E53105D0021AE54 /* TRZXCourse.m */; };
 		7184768C1E52EBB700D09537 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7184768B1E52EBB700D09537 /* main.m */; };
 		7184768F1E52EBB700D09537 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7184768E1E52EBB700D09537 /* AppDelegate.m */; };
@@ -45,8 +44,6 @@
 		7137E0661E52FD7A0021AE54 /* 直播课堂@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "直播课堂@3x.png"; sourceTree = "<group>"; };
 		7137E0671E52FD7A0021AE54 /* 附近专家@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "附近专家@2x.png"; sourceTree = "<group>"; };
 		7137E0681E52FD7A0021AE54 /* 附近专家@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "附近专家@3x.png"; sourceTree = "<group>"; };
-		7137E0761E53105D0021AE54 /* TRZXCollegeViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCollegeViewModel.h; sourceTree = "<group>"; };
-		7137E0771E53105D0021AE54 /* TRZXCollegeViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCollegeViewModel.m; sourceTree = "<group>"; };
 		7137E0781E53105D0021AE54 /* TRZXCourse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCourse.h; sourceTree = "<group>"; };
 		7137E0791E53105D0021AE54 /* TRZXCourse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCourse.m; sourceTree = "<group>"; };
 		718476871E52EBB700D09537 /* TRZXCollege.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRZXCollege.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,8 +137,6 @@
 		718476A11E52EE3E00D09537 /* TRZXCollege */ = {
 			isa = PBXGroup;
 			children = (
-				7137E0761E53105D0021AE54 /* TRZXCollegeViewModel.h */,
-				7137E0771E53105D0021AE54 /* TRZXCollegeViewModel.m */,
 				7137E0781E53105D0021AE54 /* TRZXCourse.h */,
 				7137E0791E53105D0021AE54 /* TRZXCourse.m */,
 				7137E05B1E52FD7A0021AE54 /* Resources */,
@@ -305,7 +300,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7137E07B1E53105D0021AE54 /* TRZXCourse.m in Sources */,
-				7137E07A1E53105D0021AE54 /* TRZXCollegeViewModel.m in Sources */,
 				718476A41E52EE5200D09537 /* ViewController.m in Sources */,
 				7184768F1E52EBB700D09537 /* AppDelegate.m in Sources */,
 				7184768C1E52EBB700D09537 /* main.m in Sources */,
