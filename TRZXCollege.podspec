@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = 'TRZXCollege'
   s.summary      = 'Asynchronous image loading framework.'
-  s.version      = '0.0.9'
+  s.version      = ‘0.0.10’
   s.license      = { :type => 'MIT', :file => 'FILE_LICENSE' }
   s.authors      = { 'fpli' => '952241861@qq.com' }
   s.homepage     = 'https://github.com/TRZXDev/TRZXCollege'
@@ -20,11 +20,14 @@ Pod::Spec.new do |s|
   s.dependency 'TRZXDIYRefresh'
 
 
-
+  s.subspec 'UIViewController' do |ss|
+    ss.source_files = 'TRZXCollege/TRZXCollege/UIViewController/*.{h,m}'
+  end
 
   s.subspec 'View' do |ss|
-    ss.source_files = 'TRZXCollege/TRZXCollege/View/*.{h,m}’
+    ss.source_files = 'TRZXCollege/TRZXCollege/View/*.{h,m}'
   end
+
 
 
 
