@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		712797221E9C66B700D3F994 /* TRZXCollegeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 712797211E9C66B700D3F994 /* TRZXCollegeViewController.m */; };
-		7127972F1E9C66BE00D3F994 /* TRZXCollegeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 712797241E9C66BE00D3F994 /* TRZXCollegeCell.m */; };
-		712797301E9C66BE00D3F994 /* TRZXCollegeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 712797251E9C66BE00D3F994 /* TRZXCollegeCell.xib */; };
-		712797311E9C66BE00D3F994 /* TRZXCollegeCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 712797271E9C66BE00D3F994 /* TRZXCollegeCollectionCell.m */; };
-		712797321E9C66BE00D3F994 /* TRZXCollegeCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 712797281E9C66BE00D3F994 /* TRZXCollegeCollectionCell.xib */; };
-		712797331E9C66BE00D3F994 /* TRZXCollegeCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7127972A1E9C66BE00D3F994 /* TRZXCollegeCollectionView.m */; };
-		712797341E9C66BE00D3F994 /* TRZXCollegeCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7127972B1E9C66BE00D3F994 /* TRZXCollegeCollectionView.xib */; };
-		7127973A1E9CA20700D3F994 /* TRZXCollegeLiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 712797381E9CA20700D3F994 /* TRZXCollegeLiveCell.m */; };
-		7127973B1E9CA20700D3F994 /* TRZXCollegeLiveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 712797391E9CA20700D3F994 /* TRZXCollegeLiveCell.xib */; };
-		7127973F1E9CA9E100D3F994 /* TRZXCollegeNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7127973D1E9CA9E100D3F994 /* TRZXCollegeNewsCell.m */; };
-		712797401E9CA9E100D3F994 /* TRZXCollegeNewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7127973E1E9CA9E100D3F994 /* TRZXCollegeNewsCell.xib */; };
-		712797441E9CADE500D3F994 /* TRZXCollegeRecommendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 712797421E9CADE500D3F994 /* TRZXCollegeRecommendCell.m */; };
-		712797451E9CADE500D3F994 /* TRZXCollegeRecommendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 712797431E9CADE500D3F994 /* TRZXCollegeRecommendCell.xib */; };
-		712797491E9CB27F00D3F994 /* TRZXCollegeProductsRecommendedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 712797471E9CB27F00D3F994 /* TRZXCollegeProductsRecommendedCell.xib */; };
-		7127974A1E9CB27F00D3F994 /* TRZXCollegeProductsRecommendedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 712797481E9CB27F00D3F994 /* TRZXCollegeProductsRecommendedCell.m */; };
-		7127974E1E9CB48300D3F994 /* TRZXCollegeLiveClassroomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7127974C1E9CB48300D3F994 /* TRZXCollegeLiveClassroomCell.xib */; };
-		7127974F1E9CB48300D3F994 /* TRZXCollegeLiveClassroomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7127974D1E9CB48300D3F994 /* TRZXCollegeLiveClassroomCell.m */; };
-		712797531E9CB58800D3F994 /* TRZXCollegeAskTheExpertsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 712797511E9CB58800D3F994 /* TRZXCollegeAskTheExpertsCell.xib */; };
-		712797541E9CB58800D3F994 /* TRZXCollegeAskTheExpertsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 712797521E9CB58800D3F994 /* TRZXCollegeAskTheExpertsCell.m */; };
-		712797581E9CB77100D3F994 /* TRZXCollegeTopRankingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 712797551E9CB77100D3F994 /* TRZXCollegeTopRankingCell.xib */; };
-		712797591E9CB77100D3F994 /* TRZXCollegeTopRankingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 712797571E9CB77100D3F994 /* TRZXCollegeTopRankingCell.m */; };
+		7127978A1E9CCF4100D3F994 /* TRZXCollegeAskTheExpertsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7127976B1E9CCF4000D3F994 /* TRZXCollegeAskTheExpertsCell.m */; };
+		7127978B1E9CCF4100D3F994 /* TRZXCollegeAskTheExpertsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7127976C1E9CCF4000D3F994 /* TRZXCollegeAskTheExpertsCell.xib */; };
+		7127978C1E9CCF4100D3F994 /* TRZXCollegeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7127976E1E9CCF4000D3F994 /* TRZXCollegeCell.m */; };
+		7127978D1E9CCF4100D3F994 /* TRZXCollegeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7127976F1E9CCF4000D3F994 /* TRZXCollegeCell.xib */; };
+		7127978E1E9CCF4100D3F994 /* TRZXCollegeCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 712797711E9CCF4100D3F994 /* TRZXCollegeCollectionCell.m */; };
+		7127978F1E9CCF4100D3F994 /* TRZXCollegeCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 712797721E9CCF4100D3F994 /* TRZXCollegeCollectionCell.xib */; };
+		712797901E9CCF4100D3F994 /* TRZXCollegeCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 712797741E9CCF4100D3F994 /* TRZXCollegeCollectionView.m */; };
+		712797911E9CCF4100D3F994 /* TRZXCollegeCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 712797751E9CCF4100D3F994 /* TRZXCollegeCollectionView.xib */; };
+		712797921E9CCF4100D3F994 /* TRZXCollegeLiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 712797771E9CCF4100D3F994 /* TRZXCollegeLiveCell.m */; };
+		712797931E9CCF4100D3F994 /* TRZXCollegeLiveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 712797781E9CCF4100D3F994 /* TRZXCollegeLiveCell.xib */; };
+		712797941E9CCF4100D3F994 /* TRZXCollegeLiveClassroomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7127977A1E9CCF4100D3F994 /* TRZXCollegeLiveClassroomCell.m */; };
+		712797951E9CCF4100D3F994 /* TRZXCollegeLiveClassroomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7127977B1E9CCF4100D3F994 /* TRZXCollegeLiveClassroomCell.xib */; };
+		712797961E9CCF4100D3F994 /* TRZXCollegeNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7127977D1E9CCF4100D3F994 /* TRZXCollegeNewsCell.m */; };
+		712797971E9CCF4100D3F994 /* TRZXCollegeNewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7127977E1E9CCF4100D3F994 /* TRZXCollegeNewsCell.xib */; };
+		712797981E9CCF4100D3F994 /* TRZXCollegeProductsRecommendedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 712797801E9CCF4100D3F994 /* TRZXCollegeProductsRecommendedCell.m */; };
+		712797991E9CCF4100D3F994 /* TRZXCollegeProductsRecommendedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 712797811E9CCF4100D3F994 /* TRZXCollegeProductsRecommendedCell.xib */; };
+		7127979A1E9CCF4100D3F994 /* TRZXCollegeRecommendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 712797831E9CCF4100D3F994 /* TRZXCollegeRecommendCell.m */; };
+		7127979B1E9CCF4100D3F994 /* TRZXCollegeRecommendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 712797841E9CCF4100D3F994 /* TRZXCollegeRecommendCell.xib */; };
+		7127979C1E9CCF4100D3F994 /* TRZXCollegeTopRankingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 712797861E9CCF4100D3F994 /* TRZXCollegeTopRankingCell.m */; };
+		7127979D1E9CCF4100D3F994 /* TRZXCollegeTopRankingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 712797871E9CCF4100D3F994 /* TRZXCollegeTopRankingCell.xib */; };
+		7127979E1E9CCF4100D3F994 /* TRZXCollegeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 712797891E9CCF4100D3F994 /* TRZXCollegeViewController.m */; };
 		7137E0691E52FD7A0021AE54 /* college_recommend@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7137E05C1E52FD7A0021AE54 /* college_recommend@2x.png */; };
 		7137E06A1E52FD7A0021AE54 /* 协议讲解@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7137E05D1E52FD7A0021AE54 /* 协议讲解@2x.png */; };
 		7137E06B1E52FD7A0021AE54 /* 协议讲解@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7137E05E1E52FD7A0021AE54 /* 协议讲解@3x.png */; };
@@ -52,38 +52,38 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		712797201E9C66B700D3F994 /* TRZXCollegeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCollegeViewController.h; sourceTree = "<group>"; };
-		712797211E9C66B700D3F994 /* TRZXCollegeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCollegeViewController.m; sourceTree = "<group>"; };
-		712797231E9C66BE00D3F994 /* TRZXCollegeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCollegeCell.h; sourceTree = "<group>"; };
-		712797241E9C66BE00D3F994 /* TRZXCollegeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCollegeCell.m; sourceTree = "<group>"; };
-		712797251E9C66BE00D3F994 /* TRZXCollegeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXCollegeCell.xib; sourceTree = "<group>"; };
-		712797261E9C66BE00D3F994 /* TRZXCollegeCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCollegeCollectionCell.h; sourceTree = "<group>"; };
-		712797271E9C66BE00D3F994 /* TRZXCollegeCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCollegeCollectionCell.m; sourceTree = "<group>"; };
-		712797281E9C66BE00D3F994 /* TRZXCollegeCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXCollegeCollectionCell.xib; sourceTree = "<group>"; };
-		712797291E9C66BE00D3F994 /* TRZXCollegeCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCollegeCollectionView.h; sourceTree = "<group>"; };
-		7127972A1E9C66BE00D3F994 /* TRZXCollegeCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCollegeCollectionView.m; sourceTree = "<group>"; };
-		7127972B1E9C66BE00D3F994 /* TRZXCollegeCollectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXCollegeCollectionView.xib; sourceTree = "<group>"; };
-		712797371E9CA20700D3F994 /* TRZXCollegeLiveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCollegeLiveCell.h; sourceTree = "<group>"; };
-		712797381E9CA20700D3F994 /* TRZXCollegeLiveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCollegeLiveCell.m; sourceTree = "<group>"; };
-		712797391E9CA20700D3F994 /* TRZXCollegeLiveCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXCollegeLiveCell.xib; sourceTree = "<group>"; };
-		7127973C1E9CA9E100D3F994 /* TRZXCollegeNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCollegeNewsCell.h; sourceTree = "<group>"; };
-		7127973D1E9CA9E100D3F994 /* TRZXCollegeNewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCollegeNewsCell.m; sourceTree = "<group>"; };
-		7127973E1E9CA9E100D3F994 /* TRZXCollegeNewsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXCollegeNewsCell.xib; sourceTree = "<group>"; };
-		712797411E9CADE500D3F994 /* TRZXCollegeRecommendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCollegeRecommendCell.h; sourceTree = "<group>"; };
-		712797421E9CADE500D3F994 /* TRZXCollegeRecommendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCollegeRecommendCell.m; sourceTree = "<group>"; };
-		712797431E9CADE500D3F994 /* TRZXCollegeRecommendCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXCollegeRecommendCell.xib; sourceTree = "<group>"; };
-		712797461E9CB27F00D3F994 /* TRZXCollegeProductsRecommendedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCollegeProductsRecommendedCell.h; sourceTree = "<group>"; };
-		712797471E9CB27F00D3F994 /* TRZXCollegeProductsRecommendedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXCollegeProductsRecommendedCell.xib; sourceTree = "<group>"; };
-		712797481E9CB27F00D3F994 /* TRZXCollegeProductsRecommendedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCollegeProductsRecommendedCell.m; sourceTree = "<group>"; };
-		7127974B1E9CB48300D3F994 /* TRZXCollegeLiveClassroomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCollegeLiveClassroomCell.h; sourceTree = "<group>"; };
-		7127974C1E9CB48300D3F994 /* TRZXCollegeLiveClassroomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXCollegeLiveClassroomCell.xib; sourceTree = "<group>"; };
-		7127974D1E9CB48300D3F994 /* TRZXCollegeLiveClassroomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCollegeLiveClassroomCell.m; sourceTree = "<group>"; };
-		712797501E9CB58800D3F994 /* TRZXCollegeAskTheExpertsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCollegeAskTheExpertsCell.h; sourceTree = "<group>"; };
-		712797511E9CB58800D3F994 /* TRZXCollegeAskTheExpertsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXCollegeAskTheExpertsCell.xib; sourceTree = "<group>"; };
-		712797521E9CB58800D3F994 /* TRZXCollegeAskTheExpertsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCollegeAskTheExpertsCell.m; sourceTree = "<group>"; };
-		712797551E9CB77100D3F994 /* TRZXCollegeTopRankingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXCollegeTopRankingCell.xib; sourceTree = "<group>"; };
-		712797561E9CB77100D3F994 /* TRZXCollegeTopRankingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCollegeTopRankingCell.h; sourceTree = "<group>"; };
-		712797571E9CB77100D3F994 /* TRZXCollegeTopRankingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCollegeTopRankingCell.m; sourceTree = "<group>"; };
+		7127976A1E9CCF4000D3F994 /* TRZXCollegeAskTheExpertsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCollegeAskTheExpertsCell.h; sourceTree = "<group>"; };
+		7127976B1E9CCF4000D3F994 /* TRZXCollegeAskTheExpertsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCollegeAskTheExpertsCell.m; sourceTree = "<group>"; };
+		7127976C1E9CCF4000D3F994 /* TRZXCollegeAskTheExpertsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXCollegeAskTheExpertsCell.xib; sourceTree = "<group>"; };
+		7127976D1E9CCF4000D3F994 /* TRZXCollegeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCollegeCell.h; sourceTree = "<group>"; };
+		7127976E1E9CCF4000D3F994 /* TRZXCollegeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCollegeCell.m; sourceTree = "<group>"; };
+		7127976F1E9CCF4000D3F994 /* TRZXCollegeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXCollegeCell.xib; sourceTree = "<group>"; };
+		712797701E9CCF4000D3F994 /* TRZXCollegeCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCollegeCollectionCell.h; sourceTree = "<group>"; };
+		712797711E9CCF4100D3F994 /* TRZXCollegeCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCollegeCollectionCell.m; sourceTree = "<group>"; };
+		712797721E9CCF4100D3F994 /* TRZXCollegeCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXCollegeCollectionCell.xib; sourceTree = "<group>"; };
+		712797731E9CCF4100D3F994 /* TRZXCollegeCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCollegeCollectionView.h; sourceTree = "<group>"; };
+		712797741E9CCF4100D3F994 /* TRZXCollegeCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCollegeCollectionView.m; sourceTree = "<group>"; };
+		712797751E9CCF4100D3F994 /* TRZXCollegeCollectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXCollegeCollectionView.xib; sourceTree = "<group>"; };
+		712797761E9CCF4100D3F994 /* TRZXCollegeLiveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCollegeLiveCell.h; sourceTree = "<group>"; };
+		712797771E9CCF4100D3F994 /* TRZXCollegeLiveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCollegeLiveCell.m; sourceTree = "<group>"; };
+		712797781E9CCF4100D3F994 /* TRZXCollegeLiveCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXCollegeLiveCell.xib; sourceTree = "<group>"; };
+		712797791E9CCF4100D3F994 /* TRZXCollegeLiveClassroomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCollegeLiveClassroomCell.h; sourceTree = "<group>"; };
+		7127977A1E9CCF4100D3F994 /* TRZXCollegeLiveClassroomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCollegeLiveClassroomCell.m; sourceTree = "<group>"; };
+		7127977B1E9CCF4100D3F994 /* TRZXCollegeLiveClassroomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXCollegeLiveClassroomCell.xib; sourceTree = "<group>"; };
+		7127977C1E9CCF4100D3F994 /* TRZXCollegeNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCollegeNewsCell.h; sourceTree = "<group>"; };
+		7127977D1E9CCF4100D3F994 /* TRZXCollegeNewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCollegeNewsCell.m; sourceTree = "<group>"; };
+		7127977E1E9CCF4100D3F994 /* TRZXCollegeNewsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXCollegeNewsCell.xib; sourceTree = "<group>"; };
+		7127977F1E9CCF4100D3F994 /* TRZXCollegeProductsRecommendedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCollegeProductsRecommendedCell.h; sourceTree = "<group>"; };
+		712797801E9CCF4100D3F994 /* TRZXCollegeProductsRecommendedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCollegeProductsRecommendedCell.m; sourceTree = "<group>"; };
+		712797811E9CCF4100D3F994 /* TRZXCollegeProductsRecommendedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXCollegeProductsRecommendedCell.xib; sourceTree = "<group>"; };
+		712797821E9CCF4100D3F994 /* TRZXCollegeRecommendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCollegeRecommendCell.h; sourceTree = "<group>"; };
+		712797831E9CCF4100D3F994 /* TRZXCollegeRecommendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCollegeRecommendCell.m; sourceTree = "<group>"; };
+		712797841E9CCF4100D3F994 /* TRZXCollegeRecommendCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXCollegeRecommendCell.xib; sourceTree = "<group>"; };
+		712797851E9CCF4100D3F994 /* TRZXCollegeTopRankingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCollegeTopRankingCell.h; sourceTree = "<group>"; };
+		712797861E9CCF4100D3F994 /* TRZXCollegeTopRankingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCollegeTopRankingCell.m; sourceTree = "<group>"; };
+		712797871E9CCF4100D3F994 /* TRZXCollegeTopRankingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXCollegeTopRankingCell.xib; sourceTree = "<group>"; };
+		712797881E9CCF4100D3F994 /* TRZXCollegeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCollegeViewController.h; sourceTree = "<group>"; };
+		712797891E9CCF4100D3F994 /* TRZXCollegeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCollegeViewController.m; sourceTree = "<group>"; };
 		7137E05C1E52FD7A0021AE54 /* college_recommend@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "college_recommend@2x.png"; sourceTree = "<group>"; };
 		7137E05D1E52FD7A0021AE54 /* 协议讲解@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "协议讲解@2x.png"; sourceTree = "<group>"; };
 		7137E05E1E52FD7A0021AE54 /* 协议讲解@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "协议讲解@3x.png"; sourceTree = "<group>"; };
@@ -126,52 +126,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7127971E1E9C667800D3F994 /* UIViewController */ = {
-			isa = PBXGroup;
-			children = (
-				712797201E9C66B700D3F994 /* TRZXCollegeViewController.h */,
-				712797211E9C66B700D3F994 /* TRZXCollegeViewController.m */,
-			);
-			path = UIViewController;
-			sourceTree = "<group>";
-		};
-		7127971F1E9C667800D3F994 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				712797371E9CA20700D3F994 /* TRZXCollegeLiveCell.h */,
-				712797381E9CA20700D3F994 /* TRZXCollegeLiveCell.m */,
-				712797391E9CA20700D3F994 /* TRZXCollegeLiveCell.xib */,
-				7127973C1E9CA9E100D3F994 /* TRZXCollegeNewsCell.h */,
-				7127973D1E9CA9E100D3F994 /* TRZXCollegeNewsCell.m */,
-				7127973E1E9CA9E100D3F994 /* TRZXCollegeNewsCell.xib */,
-				712797231E9C66BE00D3F994 /* TRZXCollegeCell.h */,
-				712797241E9C66BE00D3F994 /* TRZXCollegeCell.m */,
-				712797251E9C66BE00D3F994 /* TRZXCollegeCell.xib */,
-				712797261E9C66BE00D3F994 /* TRZXCollegeCollectionCell.h */,
-				712797271E9C66BE00D3F994 /* TRZXCollegeCollectionCell.m */,
-				712797281E9C66BE00D3F994 /* TRZXCollegeCollectionCell.xib */,
-				712797291E9C66BE00D3F994 /* TRZXCollegeCollectionView.h */,
-				7127972A1E9C66BE00D3F994 /* TRZXCollegeCollectionView.m */,
-				7127972B1E9C66BE00D3F994 /* TRZXCollegeCollectionView.xib */,
-				712797411E9CADE500D3F994 /* TRZXCollegeRecommendCell.h */,
-				712797421E9CADE500D3F994 /* TRZXCollegeRecommendCell.m */,
-				712797431E9CADE500D3F994 /* TRZXCollegeRecommendCell.xib */,
-				712797461E9CB27F00D3F994 /* TRZXCollegeProductsRecommendedCell.h */,
-				712797471E9CB27F00D3F994 /* TRZXCollegeProductsRecommendedCell.xib */,
-				712797481E9CB27F00D3F994 /* TRZXCollegeProductsRecommendedCell.m */,
-				7127974B1E9CB48300D3F994 /* TRZXCollegeLiveClassroomCell.h */,
-				7127974D1E9CB48300D3F994 /* TRZXCollegeLiveClassroomCell.m */,
-				7127974C1E9CB48300D3F994 /* TRZXCollegeLiveClassroomCell.xib */,
-				712797501E9CB58800D3F994 /* TRZXCollegeAskTheExpertsCell.h */,
-				712797521E9CB58800D3F994 /* TRZXCollegeAskTheExpertsCell.m */,
-				712797511E9CB58800D3F994 /* TRZXCollegeAskTheExpertsCell.xib */,
-				712797561E9CB77100D3F994 /* TRZXCollegeTopRankingCell.h */,
-				712797571E9CB77100D3F994 /* TRZXCollegeTopRankingCell.m */,
-				712797551E9CB77100D3F994 /* TRZXCollegeTopRankingCell.xib */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		7137E05B1E52FD7A0021AE54 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -236,8 +190,38 @@
 		718476A11E52EE3E00D09537 /* TRZXCollege */ = {
 			isa = PBXGroup;
 			children = (
-				7127971E1E9C667800D3F994 /* UIViewController */,
-				7127971F1E9C667800D3F994 /* View */,
+				712797881E9CCF4100D3F994 /* TRZXCollegeViewController.h */,
+				712797891E9CCF4100D3F994 /* TRZXCollegeViewController.m */,
+				7127976A1E9CCF4000D3F994 /* TRZXCollegeAskTheExpertsCell.h */,
+				7127976B1E9CCF4000D3F994 /* TRZXCollegeAskTheExpertsCell.m */,
+				7127976C1E9CCF4000D3F994 /* TRZXCollegeAskTheExpertsCell.xib */,
+				7127976D1E9CCF4000D3F994 /* TRZXCollegeCell.h */,
+				7127976E1E9CCF4000D3F994 /* TRZXCollegeCell.m */,
+				7127976F1E9CCF4000D3F994 /* TRZXCollegeCell.xib */,
+				712797701E9CCF4000D3F994 /* TRZXCollegeCollectionCell.h */,
+				712797711E9CCF4100D3F994 /* TRZXCollegeCollectionCell.m */,
+				712797721E9CCF4100D3F994 /* TRZXCollegeCollectionCell.xib */,
+				712797731E9CCF4100D3F994 /* TRZXCollegeCollectionView.h */,
+				712797741E9CCF4100D3F994 /* TRZXCollegeCollectionView.m */,
+				712797751E9CCF4100D3F994 /* TRZXCollegeCollectionView.xib */,
+				712797761E9CCF4100D3F994 /* TRZXCollegeLiveCell.h */,
+				712797771E9CCF4100D3F994 /* TRZXCollegeLiveCell.m */,
+				712797781E9CCF4100D3F994 /* TRZXCollegeLiveCell.xib */,
+				712797791E9CCF4100D3F994 /* TRZXCollegeLiveClassroomCell.h */,
+				7127977A1E9CCF4100D3F994 /* TRZXCollegeLiveClassroomCell.m */,
+				7127977B1E9CCF4100D3F994 /* TRZXCollegeLiveClassroomCell.xib */,
+				7127977C1E9CCF4100D3F994 /* TRZXCollegeNewsCell.h */,
+				7127977D1E9CCF4100D3F994 /* TRZXCollegeNewsCell.m */,
+				7127977E1E9CCF4100D3F994 /* TRZXCollegeNewsCell.xib */,
+				7127977F1E9CCF4100D3F994 /* TRZXCollegeProductsRecommendedCell.h */,
+				712797801E9CCF4100D3F994 /* TRZXCollegeProductsRecommendedCell.m */,
+				712797811E9CCF4100D3F994 /* TRZXCollegeProductsRecommendedCell.xib */,
+				712797821E9CCF4100D3F994 /* TRZXCollegeRecommendCell.h */,
+				712797831E9CCF4100D3F994 /* TRZXCollegeRecommendCell.m */,
+				712797841E9CCF4100D3F994 /* TRZXCollegeRecommendCell.xib */,
+				712797851E9CCF4100D3F994 /* TRZXCollegeTopRankingCell.h */,
+				712797861E9CCF4100D3F994 /* TRZXCollegeTopRankingCell.m */,
+				712797871E9CCF4100D3F994 /* TRZXCollegeTopRankingCell.xib */,
 				714B4EC81E532A410006E438 /* TRZXCollegeViewModel.h */,
 				714B4EC91E532A410006E438 /* TRZXCollegeViewModel.m */,
 				7137E0781E53105D0021AE54 /* TRZXCourse.h */,
@@ -326,30 +310,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7127974E1E9CB48300D3F994 /* TRZXCollegeLiveClassroomCell.xib in Resources */,
-				712797451E9CADE500D3F994 /* TRZXCollegeRecommendCell.xib in Resources */,
 				7137E06C1E52FD7A0021AE54 /* 学院问答@2x.png in Resources */,
-				712797321E9C66BE00D3F994 /* TRZXCollegeCollectionCell.xib in Resources */,
-				712797341E9C66BE00D3F994 /* TRZXCollegeCollectionView.xib in Resources */,
 				7137E0741E52FD7A0021AE54 /* 附近专家@2x.png in Resources */,
 				7137E06F1E52FD7A0021AE54 /* 孵化专区@3x.png in Resources */,
 				7184769A1E52EBB700D09537 /* LaunchScreen.storyboard in Resources */,
 				7137E0691E52FD7A0021AE54 /* college_recommend@2x.png in Resources */,
-				712797301E9C66BE00D3F994 /* TRZXCollegeCell.xib in Resources */,
 				7137E0731E52FD7A0021AE54 /* 直播课堂@3x.png in Resources */,
 				7137E06D1E52FD7A0021AE54 /* 学院问答@3x.png in Resources */,
+				712797971E9CCF4100D3F994 /* TRZXCollegeNewsCell.xib in Resources */,
 				7137E0751E52FD7A0021AE54 /* 附近专家@3x.png in Resources */,
+				712797911E9CCF4100D3F994 /* TRZXCollegeCollectionView.xib in Resources */,
 				718476971E52EBB700D09537 /* Assets.xcassets in Resources */,
+				7127978D1E9CCF4100D3F994 /* TRZXCollegeCell.xib in Resources */,
 				7137E0721E52FD7A0021AE54 /* 直播课堂@2x.png in Resources */,
+				7127979B1E9CCF4100D3F994 /* TRZXCollegeRecommendCell.xib in Resources */,
+				712797951E9CCF4100D3F994 /* TRZXCollegeLiveClassroomCell.xib in Resources */,
+				7127978F1E9CCF4100D3F994 /* TRZXCollegeCollectionCell.xib in Resources */,
 				718476951E52EBB700D09537 /* Main.storyboard in Resources */,
-				712797401E9CA9E100D3F994 /* TRZXCollegeNewsCell.xib in Resources */,
-				712797491E9CB27F00D3F994 /* TRZXCollegeProductsRecommendedCell.xib in Resources */,
-				7127973B1E9CA20700D3F994 /* TRZXCollegeLiveCell.xib in Resources */,
+				712797931E9CCF4100D3F994 /* TRZXCollegeLiveCell.xib in Resources */,
+				712797991E9CCF4100D3F994 /* TRZXCollegeProductsRecommendedCell.xib in Resources */,
 				7137E0701E52FD7A0021AE54 /* 投融课程@2x.png in Resources */,
-				712797581E9CB77100D3F994 /* TRZXCollegeTopRankingCell.xib in Resources */,
+				7127979D1E9CCF4100D3F994 /* TRZXCollegeTopRankingCell.xib in Resources */,
 				7137E0711E52FD7A0021AE54 /* 投融课程@3x.png in Resources */,
+				7127978B1E9CCF4100D3F994 /* TRZXCollegeAskTheExpertsCell.xib in Resources */,
 				7137E06A1E52FD7A0021AE54 /* 协议讲解@2x.png in Resources */,
-				712797531E9CB58800D3F994 /* TRZXCollegeAskTheExpertsCell.xib in Resources */,
 				7137E06B1E52FD7A0021AE54 /* 协议讲解@3x.png in Resources */,
 				7137E06E1E52FD7A0021AE54 /* 孵化专区@2x.png in Resources */,
 			);
@@ -410,21 +394,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7127972F1E9C66BE00D3F994 /* TRZXCollegeCell.m in Sources */,
-				7127974A1E9CB27F00D3F994 /* TRZXCollegeProductsRecommendedCell.m in Sources */,
-				7127974F1E9CB48300D3F994 /* TRZXCollegeLiveClassroomCell.m in Sources */,
-				712797591E9CB77100D3F994 /* TRZXCollegeTopRankingCell.m in Sources */,
-				7127973A1E9CA20700D3F994 /* TRZXCollegeLiveCell.m in Sources */,
+				712797901E9CCF4100D3F994 /* TRZXCollegeCollectionView.m in Sources */,
+				712797981E9CCF4100D3F994 /* TRZXCollegeProductsRecommendedCell.m in Sources */,
+				7127979A1E9CCF4100D3F994 /* TRZXCollegeRecommendCell.m in Sources */,
 				714B4ECA1E532A410006E438 /* TRZXCollegeViewModel.m in Sources */,
+				7127978C1E9CCF4100D3F994 /* TRZXCollegeCell.m in Sources */,
+				712797941E9CCF4100D3F994 /* TRZXCollegeLiveClassroomCell.m in Sources */,
+				7127978A1E9CCF4100D3F994 /* TRZXCollegeAskTheExpertsCell.m in Sources */,
+				7127978E1E9CCF4100D3F994 /* TRZXCollegeCollectionCell.m in Sources */,
+				712797921E9CCF4100D3F994 /* TRZXCollegeLiveCell.m in Sources */,
 				7137E07B1E53105D0021AE54 /* TRZXCourse.m in Sources */,
-				7127973F1E9CA9E100D3F994 /* TRZXCollegeNewsCell.m in Sources */,
-				712797441E9CADE500D3F994 /* TRZXCollegeRecommendCell.m in Sources */,
-				712797331E9C66BE00D3F994 /* TRZXCollegeCollectionView.m in Sources */,
 				7184768F1E52EBB700D09537 /* AppDelegate.m in Sources */,
-				712797311E9C66BE00D3F994 /* TRZXCollegeCollectionCell.m in Sources */,
-				712797221E9C66B700D3F994 /* TRZXCollegeViewController.m in Sources */,
+				712797961E9CCF4100D3F994 /* TRZXCollegeNewsCell.m in Sources */,
+				7127979C1E9CCF4100D3F994 /* TRZXCollegeTopRankingCell.m in Sources */,
+				7127979E1E9CCF4100D3F994 /* TRZXCollegeViewController.m in Sources */,
 				7184768C1E52EBB700D09537 /* main.m in Sources */,
-				712797541E9CB58800D3F994 /* TRZXCollegeAskTheExpertsCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
