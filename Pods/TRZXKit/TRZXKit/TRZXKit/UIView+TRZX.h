@@ -27,5 +27,12 @@
  */
 + (instancetype)viewFromXib;
 
+/**
+ *  删除所有子视图
+ */
+- (void)removeAllSubviews;
+
+//获取当前View的视图控制器
+- (UIViewController *)viewController;
 
 @end

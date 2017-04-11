@@ -11,7 +11,7 @@ target 'TRZXCollege' do
     pod 'MJExtension'
     pod 'TRZXShufflingView'
     pod 'TRZXKit'
-    pod 'MJRefresh'
+    pod 'TRZXDIYRefresh'
 
 
 

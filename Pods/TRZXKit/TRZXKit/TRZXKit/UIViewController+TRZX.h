@@ -22,7 +22,9 @@
 // THE SOFTWARE.
 
 #import <UIKit/UIKit.h>
-
+/**
+ * 默认所有都不支持转屏,如需个别页面支持除竖屏外的其他方向，请在viewController重新下边这三个方法
+ */
 @interface UIViewController (TRZX)
 
 @end

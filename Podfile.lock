@@ -23,18 +23,20 @@ PODS:
   - ReactiveCocoa/no-arc (2.5)
   - ReactiveCocoa/UI (2.5):
     - ReactiveCocoa/Core
-  - TRZXKit (0.0.5)
+  - TRZXDIYRefresh (0.0.1):
+    - MJRefresh
+  - TRZXKit (0.0.12)
   - TRZXNetwork (0.0.7):
     - AFNetworking
     - YYCache
-  - TRZXShufflingView (0.0.3):
+  - TRZXShufflingView (0.0.4):
     - AFNetworking
   - YYCache (1.0.4)
 
 DEPENDENCIES:
   - MJExtension
-  - MJRefresh
   - ReactiveCocoa (~> 2.5)
+  - TRZXDIYRefresh
   - TRZXKit
   - TRZXNetwork
   - TRZXShufflingView
@@ -44,11 +46,12 @@ SPEC CHECKSUMS:
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
-  TRZXKit: cf9187d30df515aff8ad5032141b85da5b7d9d15
-  TRZXNetwork: 971adad8c503f4e1fa21a2a3cfa8b73a7e4f3a13
-  TRZXShufflingView: 97117ad6d49274dec380ec0ba3c44c3f93a79f37
+  TRZXDIYRefresh: a89e7cf1658ff7d57aad081c596c2a9cf137dcf2
+  TRZXKit: e166edb14d4ff544c6903d7da15213a26fc1a763
+  TRZXNetwork: d6ce75a420218ed4b6b95f10220442f175947125
+  TRZXShufflingView: c08a623176d51abfd57ac8b400742d64a41606a5
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: ec6f2d005896bb5c1824a28cd3ca520ae9c8587d
+PODFILE CHECKSUM: e2ceea6996817a91d506653a4ec1edc93db01b61
 
 COCOAPODS: 1.2.0

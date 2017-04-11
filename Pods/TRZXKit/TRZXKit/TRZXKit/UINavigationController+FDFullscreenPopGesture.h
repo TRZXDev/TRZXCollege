@@ -20,6 +20,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
+// 全屏滑动返回
+
 #import <UIKit/UIKit.h>
 
 /// "UINavigation+FDFullscreenPopGesture" extends UINavigationController's swipe-
