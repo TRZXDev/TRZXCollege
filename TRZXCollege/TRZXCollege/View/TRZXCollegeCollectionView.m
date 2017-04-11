@@ -124,7 +124,6 @@
     switch (indexPath.row) {
         case CollegeCollectionViewCellTypeCourse:{//直播课程
 
-            [self.viewController.navigationController pushViewController:nil animated:true];
 
         }
             break;
