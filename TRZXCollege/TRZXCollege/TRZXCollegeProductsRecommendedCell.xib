@@ -15,7 +15,7 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="186"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="186"/>
+                <rect key="frame" x="0.0" y="0.0" width="320" height="185.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZDf-lR-14m">
@@ -30,6 +30,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ViH-aQ-CWj">
                                 <rect key="frame" x="248" y="0.0" width="62" height="44"/>
                                 <state key="normal" title="查看全部"/>
+                                <connections>
+                                    <action selector="toLiveAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="jqa-B9-0xU"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="akm-J7-BQn">
                                 <rect key="frame" x="0.0" y="43" width="320" height="1"/>

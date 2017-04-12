@@ -30,6 +30,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ViH-aQ-CWj">
                                 <rect key="frame" x="248" y="0.0" width="62" height="44"/>
                                 <state key="normal" title="查看往期"/>
+                                <connections>
+                                    <action selector="toLiveAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="In3-F2-Y8Y"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="akm-J7-BQn">
                                 <rect key="frame" x="0.0" y="43" width="320" height="1"/>
