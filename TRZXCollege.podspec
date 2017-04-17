@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = 'TRZXCollege'
   s.summary      = 'Asynchronous image loading framework.'
-  s.version      = '0.0.15’
+  s.version      = '0.0.16'
   s.license      = { :type => 'MIT', :file => 'FILE_LICENSE' }
   s.authors      = { 'fpli' => '952241861@qq.com' }
   s.homepage     = 'https://github.com/TRZXDev/TRZXCollege'
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/TRZXDev/TRZXCollege.git", :tag => "#{s.version}" }
   
   s.requires_arc = true
-  s.source_files = 'TRZXCollege/TRZXCollege/*.{h,m}'
+  s.source_files = 'TRZXCollege/TRZXCollege/**/*.{h,m}'
 
   s.dependency 'TRZXNetwork'
   s.dependency 'ReactiveCocoa', '~> 2.5'
@@ -19,7 +19,12 @@ Pod::Spec.new do |s|
   s.dependency 'TRZXKit'
   s.dependency 'TRZXDIYRefresh'
 
-
+  s.subspec 'Cells' do |ss|
+    ss.source_files = 'TRZXCollege/TRZXCollege/Cells/*.{h,m}'
+  end
+  s.subspec ‘Views’ do |ss|
+    ss.source_files = 'TRZXCollege/TRZXCollege/Views/*.{h,m}'
+  end
 
 
 
