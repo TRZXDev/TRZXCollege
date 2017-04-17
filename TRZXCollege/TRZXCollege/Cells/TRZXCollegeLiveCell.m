@@ -8,6 +8,7 @@
 
 #import "TRZXCollegeLiveCell.h"
 #import "TRZXKit.h"
+#import "TRZXCollegeLiveColumnViewController.h"
 @implementation TRZXCollegeLiveCell
 
 - (void)awakeFromNib {
@@ -24,7 +25,7 @@
 }
 - (IBAction)toLiveAction:(UIButton *)sender {
 
-    [self.viewController.navigationController pushViewController: [UIViewController alloc] animated:true];
+    [self.viewController.navigationController pushViewController: [TRZXCollegeLiveColumnViewController alloc] animated:true];
 }
 
 @end

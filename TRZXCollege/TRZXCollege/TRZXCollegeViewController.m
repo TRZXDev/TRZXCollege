@@ -7,13 +7,17 @@
 //
 
 #import "TRZXCollegeViewController.h"
-
+#import "TRZXWavesView.h"
+#import "TRZXDIYRefresh.h"
 
 @interface TRZXCollegeViewController ()<UITableViewDataSource,UITableViewDelegate>
-@property (nonatomic, strong) UIView *collegeHeaderView;
+@property (nonatomic, strong) UIView *topView; //顶部轮播UView
+@property (nonatomic, strong) TRZXWavesView *wavesView; //水波纹UView
+
 @property (nonatomic, strong) TRZXShufflingView *shufflingView;
+@property (nonatomic, strong) UIView *collegeHeaderView;
 @property (nonatomic, strong) TRZXCollegeCollectionView *collegeCollectionView;
-@property (nonatomic, strong) UITableView *collegeTableView;
+@property (nonatomic, strong) UITableView *tableView;
 @property (strong, nonatomic) TRZXCollegeViewModel *viewModel;
 
 @end
@@ -21,20 +25,31 @@
 @implementation TRZXCollegeViewController
 
 
-
-- (void)viewWillAppear:(BOOL)animated
-{
+//-(UIStatusBarStyle)preferredStatusBarStyle{
+//    return self.navigationController.navigationBar.barStyle == UIBarStyleBlack?UIStatusBarStyleLightContent : UIStatusBarStyleDefault;
+//}
+- (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
+//    self.automaticallyAdjustsScrollViewInsets = NO;
+    self.navigationController.navigationBar.translucent = NO;
+    // 设置状态栏的样式
+//    [self.navigationController setNavigationBarHidden:YES animated:YES];
+//    self.navigationController.navigationBar.barStyle = UIBarStyleDefault;
 }
 
--(void)viewWillDisappear:(BOOL)animated{
+
+- (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
-
+        // 设置回状态栏的样式
+//    [self.navigationController setNavigationBarHidden:NO animated:YES];
+//    self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
 }
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"投融学院";
-    [self.view addSubview:self.collegeTableView];
+
+    [self.view addSubview:self.tableView];
 
 //    [self sendRequest];
 
@@ -52,7 +67,7 @@
 
         // 请求完成后，更新UI
 
-        [self.collegeTableView reloadData];
+        [self.tableView reloadData];
 
 
     } error:^(NSError *error) {
@@ -188,7 +203,7 @@
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
 
-    return 20;
+    return 10;
 }
 
 
@@ -231,6 +246,7 @@
     if (!_collegeHeaderView) {
         _collegeHeaderView = [[UIView alloc]init];
         [_collegeHeaderView addSubview:self.shufflingView];
+        [_collegeHeaderView addSubview:self.wavesView];
         [_collegeHeaderView addSubview:self.collegeCollectionView];
         _collegeHeaderView.frame = CGRectMake(0, 0, self.view.width, self.collegeCollectionView.bottom);
     }
@@ -239,20 +255,60 @@
 
 
 
--(UITableView *)collegeTableView{
-    if (!_collegeTableView) {
+-(UITableView *)tableView{
+    if (!_tableView) {
         // 内容视图
-        _collegeTableView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStyleGrouped];
-        _collegeTableView.frame = CGRectMake(0, 0, self.view.width, self.view.height);
-        _collegeTableView.separatorStyle = UITableViewCellSeparatorStyleNone;
-        _collegeTableView.dataSource = self;
-        _collegeTableView.delegate = self;
-        _collegeTableView.tableHeaderView = self.collegeHeaderView;
-        _collegeTableView.estimatedRowHeight = 316;  //  随便设个不那么离谱的值
-        _collegeTableView.rowHeight = UITableViewAutomaticDimension;
+        _tableView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStyleGrouped];
+        _tableView.frame = CGRectMake(0, 0, self.view.width, self.view.height);
+        _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+        _tableView.dataSource = self;
+        _tableView.delegate = self;
+        _tableView.tableHeaderView = self.collegeHeaderView;
+        _tableView.estimatedRowHeight = 316;  //  随便设个不那么离谱的值
+        _tableView.rowHeight = UITableViewAutomaticDimension;
+
+
+
+        // 设置回调（一旦进入刷新状态，就调用target的action，也就是调用self的loadNewData方法）
+        _tableView.mj_header = [TRZXGifHeader headerWithRefreshingBlock:^{
+            // 刷新数据
+
+            __block TRZXCollegeViewController/*主控制器*/ *weakSelf = self;
+
+            dispatch_time_t delayTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0/*延迟执行时间*/ * NSEC_PER_SEC));
+
+            dispatch_after(delayTime, dispatch_get_main_queue(), ^{
+
+                [ self.tableView.mj_header endRefreshing];
+
+            });
+
+
+
+        }];
+//        [ self.tableView.mj_header beginRefreshing];
+
+
+        // 设置回调（一旦进入刷新状态，就调用target的action，也就是调用self的loadLastData方法）
+        _tableView.mj_footer = [TRZXGifFooter footerWithRefreshingBlock:^{
+
+
+            dispatch_time_t delayTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0/*延迟执行时间*/ * NSEC_PER_SEC));
+
+            dispatch_after(delayTime, dispatch_get_main_queue(), ^{
+
+                [ self.tableView.mj_footer endRefreshing];
+                
+                
+            });
+
+
+        }];
+        _tableView.mj_footer.automaticallyHidden = YES;
+
 
     }
-    return _collegeTableView;
+    return _tableView;
 }
 
 
@@ -261,7 +317,9 @@
 -(TRZXShufflingView *)shufflingView{
     if (!_shufflingView) {
         _shufflingView = [[TRZXShufflingView alloc] initWithFrame:CGRectMake(0, 0, self.view.width, self.view.width*9/16)];
-        [_shufflingView images:@[@"http://kipo-att-img.img-cn-beijing.aliyuncs.com/201702/dc4e87fde4fe45d298604ef716626daf.jpg@!750x422",@"http://kipo-att-img.img-cn-beijing.aliyuncs.com/201702/dc4e87fde4fe45d298604ef716626daf.jpg@!750x422",@"http://kipo-att-img.img-cn-beijing.aliyuncs.com/201702/dc4e87fde4fe45d298604ef716626daf.jpg@!750x422"]];
+
+        NSString *path = @"http://upload-images.jianshu.io/upload_images/119178-9ca70abd076bdf64.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240";
+        [_shufflingView images:@[path,path,path]];
 
     }
     return _shufflingView;
@@ -279,6 +337,22 @@
     return _collegeCollectionView;
 }
 
+-(UIView *)topView{
+    if (!_topView) {
+
+        _topView.frame = CGRectMake(0, -self.view.height, self.view.width, self.view.height);
+    }
+    return _topView;
+}
+
+-(TRZXWavesView *)wavesView{
+    if (!_wavesView) {
+        _wavesView  = [[TRZXWavesView alloc] initWithFrame:CGRectMake(0, self.shufflingView.bottom-20, self.view.width, 20)];
+        [_wavesView startWaveAnimation];
+    }
+    return _wavesView;
+}
+
 - (TRZXCollegeViewModel *)viewModel {
 
     if (!_viewModel) {
@@ -286,6 +360,26 @@
     }
     return _viewModel;
 }
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
+//    CGFloat offsetY = scrollView.contentOffset.y;
+//
+//    if (offsetY >= 0) {
+//        self.navigationController.navigationBar.barStyle = UIBarStyleDefault;
+//
+//
+//    } else {
+//        self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
+//
+//    }
+//
+
+
+    
+}
+
+
 
 @end
 

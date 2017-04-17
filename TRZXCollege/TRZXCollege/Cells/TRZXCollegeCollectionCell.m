@@ -22,6 +22,8 @@
     // self
     self.autoresizingMask = UIViewAutoresizingNone;
 
+    self.iconImageView.layer.cornerRadius =   25;
+    self.iconImageView.layer.masksToBounds = YES;
 
 }
 

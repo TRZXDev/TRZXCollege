@@ -19,7 +19,6 @@
 #import "TRZXCollegeCollectionView.h"
 #import "TRZXCollegeViewModel.h"
 #import "TRZXKit.h"
-#import "TRZXCollegeCell.h"
 #import "UIImageView+AFNetworking.h"
 /**
  投融学院首页
