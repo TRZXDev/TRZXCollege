@@ -9,6 +9,7 @@
 #import "TRZXCollegeViewController.h"
 #import "TRZXWavesView.h"
 #import "TRZXDIYRefresh.h"
+#import "TRZXCollegeLiveColumnEnteredViewController.h"
 
 @interface TRZXCollegeViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (nonatomic, strong) UIView *topView; //顶部轮播UView
@@ -213,6 +214,61 @@
 {
     //行被选中后，自动变回反选状态的方法
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+
+
+    switch (indexPath.section) {
+        case 0:
+        {
+
+        [self.navigationController pushViewController: [TRZXCollegeLiveColumnEnteredViewController alloc] animated:true];
+
+
+        }
+            break;
+        case 1:
+        {
+
+
+        }
+            break;
+        case 2:
+        {
+
+
+
+        }
+            break;
+        case 3:
+        {
+
+
+
+        }
+            break;
+        case 4:
+        {
+
+
+
+        }
+            break;
+        case 5:
+        {
+
+
+        }
+            break;
+
+        default:
+        {
+
+
+        }
+            break;
+    }
+
+
+
 
 
 }

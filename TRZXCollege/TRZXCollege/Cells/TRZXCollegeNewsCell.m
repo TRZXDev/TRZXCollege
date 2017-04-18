@@ -8,6 +8,7 @@
 
 #import "TRZXCollegeNewsCell.h"
 #import "TRZXKit.h"
+#import "TRZXCollegeNewsAllViewController.h"
 
 @implementation TRZXCollegeNewsCell
 
@@ -21,7 +22,7 @@
     // Configure the view for the selected state
 }
 - (IBAction)toLiveAction:(UIButton *)sender {
-    [self.viewController.navigationController pushViewController: [UIViewController alloc] animated:true];
+    [self.viewController.navigationController pushViewController: [TRZXCollegeNewsAllViewController alloc] animated:true];
 }
 
 @end

@@ -9,6 +9,7 @@
 #import "TRZXCollegeLiveCell.h"
 #import "TRZXKit.h"
 #import "TRZXCollegeLiveColumnViewController.h"
+#import "TRZXCollegeLiveColumnEnteredViewController.h"
 @implementation TRZXCollegeLiveCell
 
 - (void)awakeFromNib {
@@ -18,6 +19,9 @@
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
+
+
+
 
 
 

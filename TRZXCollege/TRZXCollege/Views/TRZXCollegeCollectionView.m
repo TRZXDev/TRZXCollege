@@ -9,6 +9,7 @@
 #import "TRZXCollegeCollectionView.h"
 #import "TRZXCollegeCollectionCell.h"
 #import "TRZXKit.h"
+#import "TRZXCollegeNewsAllViewController.h"
 @interface TRZXCollegeCollectionView () <UICollectionViewDataSource,UICollectionViewDelegate>
 
 
@@ -227,6 +228,9 @@
         default:
             break;
     }
+
+    [self.viewController.navigationController pushViewController: [TRZXCollegeNewsAllViewController alloc] animated:true];
+
 
 
 }

@@ -19,13 +19,5 @@ Pod::Spec.new do |s|
   s.dependency 'TRZXKit'
   s.dependency 'TRZXDIYRefresh'
 
-  s.subspec 'Cells' do |ss|
-    ss.source_files = 'TRZXCollege/TRZXCollege/Cells/*.{h,m}'
-  end
-  s.subspec ‘Views’ do |ss|
-    ss.source_files = 'TRZXCollege/TRZXCollege/Views/*.{h,m}'
-  end
-
-
 
 end
